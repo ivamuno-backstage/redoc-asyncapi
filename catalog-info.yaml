@@ -1,0 +1,38 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: redoc-asyncapi
+  title: Redoc AsyncAPI
+  description: Redoc AsyncAPI Description
+  tags:
+    - nodejs
+  annotations:
+    backstage.io/adr-location: ./docs/adrs
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: ivamuno-backstage/redoc-asyncapi
+  links:
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
+    - url: https://example.com/group
+      title: Example Group
+      icon: group
+    - url: https://example.com/cloud
+      title: Link with Cloud Icon
+      icon: cloud
+    - url: https://example.com/backlog
+      title: Backlog Tool
+      icon: dashboard
+    - url: https://example.com/help
+      title: Incident Tool
+      icon: help
+    - url: https://example.com/metrics
+      title: Metrics Tool
+      icon: web
+    - url: https://example.com/alert
+      title: Alert Tool
+      icon: alert
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-a
